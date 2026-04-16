@@ -30,6 +30,11 @@ section{position:relative;overflow:hidden}
 .hero-content{position:relative;z-index:3;padding:2rem;display:flex;flex-direction:column;align-items:center}
 .h-eyebrow{font-family:'Cinzel',serif;font-size:clamp(.55rem,1.5vw,.75rem);letter-spacing:.7em;color:rgba(201,168,76,.65);text-transform:uppercase;opacity:0;animation:revealUp 1.2s 0.3s forwards}
 .h-divline{width:1px;height:50px;background:linear-gradient(to bottom,transparent,var(--gold),transparent);margin:.8rem auto;opacity:0;animation:revealUp 1s .7s forwards}
+.h-titleup{font-family: 'Cinzel', serif;  /* same premium font as title */
+    font-size: clamp(1.2rem, 2vw, 1.8rem);
+    letter-spacing: 0.1em;  /* reduce spacing for readability */
+    font-style: normal;     /* remove italic/cursive feel */
+color:rgba(232,204,133,.8);margin-top:.2rem;opacity:0;animation:revealUp 1.2s 1.3s forwards}
 .h-title{font-family:'Cinzel',serif;font-size:clamp(2.2rem,6vw,5rem);font-weight:700;letter-spacing:.08em;line-height:1;background:linear-gradient(150deg,#ffe9a0 0%,#c9a84c 35%,#8b6820 65%,#c9a84c 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;opacity:0;animation:revealUp 1.4s .9s forwards}
 .h-script{font-family: 'Cinzel', serif;  /* same premium font as title */
     font-size: clamp(1.2rem, 2vw, 1.8rem);
@@ -265,9 +270,10 @@ footer{padding:3rem 2rem;text-align:center;border-top:1px solid rgba(201,168,76,
   <div class="hero-content">
     <div class="h-eyebrow">You Are Cordially Invited</div>
     <div class="h-divline"></div>
-    <h1 class="h-title">PRANITA'S MANSION</h1>
+<h1 class="h-titleup">Where Vaibhav’s Dream Meets </h1>
+    <h1 class="h-title">Pranita’s Mansion</h1>
     <div class="h-script">Griha Pravesh Ceremony</div>
-    <div class="h-powered">Co-powered by <em>Vaibhav Desai</em></div>
+   <!-- <div class="h-powered">Co-powered by <em>Vaibhav Desai</em></div>* -->
     <div class="h-divline2"></div>
     <div class="h-date">✦ &nbsp; Thursday · 24 April 2026 · 5:00 PM · Windsor &nbsp; ✦</div>
   </div>
